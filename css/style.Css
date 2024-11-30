@@ -1,0 +1,96 @@
+body {
+    display: grid;
+    grid-template-columns: 500px auto;
+    margin: 0;
+    font-size: 20px;
+}
+.pp {
+    position: absolute;
+    margin-left: 26px;
+    margin-top: 70px;
+    width: 400px;
+    height: 400px;
+}
+/* LEFT SIDE */
+.left-side {
+    background-color: #E07B39;
+}
+.left-container {
+    margin-top: 600px;
+    margin-left: 100px;
+}
+.left-title-box {
+    background-color: #B6A28E;
+    color: white;
+    width: 200px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.left-value {
+    margin-top: 200px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.lefit-list {
+    margin-bottom: 10px;
+}
+.link-list {
+    display: flex;
+    text-decoration: none;
+}
+.link-list:link {
+    color: black;
+}
+.link-list:visited {
+    color: black;
+}
+.left-list-dot {
+    height: 50px;
+    width: 10px;
+    background-color: #E07B39;
+}
+.left-list-icon {
+    width: 20px;
+    margin-bottom: -5px;
+}
+.left-list-text {
+    border-bottom-style: solid;
+    align-self: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+}
+.left-list-title {
+    font-size: 23px;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-color: white;
+}
+.left-list-time {
+    font-weight: bold;
+}
+.left-subject-title {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.left-subject-container {
+    width: 0.01em 10px;
+    text-align: center;
+    color: #ffff;
+    background-color: #000s;
+}
+/* RIGHT SIDE */
+.right-side {
+    background-color: #B6A28E;
+    color: white;
+}
+.name-container {
+    margin-top: 150px;
+    text-align: -webkit-right;
+}
